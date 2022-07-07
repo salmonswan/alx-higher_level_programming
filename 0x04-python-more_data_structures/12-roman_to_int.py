@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
-    if roman_string is not str or roman_string is None:
+    if type(roman_string) != str or roman_string is None:
         return (0)
     else:
         units = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
@@ -30,4 +30,4 @@ def roman_to_int(roman_string):
             dict_list.append((i, j))
         num_dict = dict(dict_list)
 
-        return(num_dict[roman_string])
+        return(int(num_dict[roman_string]))
