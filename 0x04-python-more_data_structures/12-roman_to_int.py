@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
-    if roman_string.type() != str or roman_string is None:
+    if roman_string is not str or roman_string is None:
         return (0)
     else:
         units = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
