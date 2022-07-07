@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 def complex_delete(a_dictionary, value):
-    values = list(map((lambda x: x[1]), a_dictionary.items()))
-    if value not in values:
+    if value not in a_dictionary.values():
         pass
     else:
         dict_list = []
