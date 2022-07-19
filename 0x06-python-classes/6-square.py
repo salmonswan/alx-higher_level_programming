@@ -2,9 +2,6 @@
 '''Defining a class Square Defined by size'''
 
 
-from turtle import position
-
-
 class Square:
     '''Defines a square'''
 
